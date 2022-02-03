@@ -6,7 +6,7 @@ st.subheader("subb")
 st.text("please write the vugrapg name")
 if st.button("press this"):
   st.text("Write something")
-  st.selectbox["Yes","No"]
+  selectbox = st.selectbox["Yes","No"]
   if st.textbox()=="hello":
     st.button("works!")
 #image = st.file_uploader("Upload image",[JPG,PNG])
